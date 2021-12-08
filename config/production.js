@@ -4,7 +4,10 @@ module.exports = {
     disabled: false,
   },
   cors: {
-    origins: ['http://localhost:3000'],
+    origins: [
+      'http://localhost:3000',
+      'https://thomasaelbrecht.github.io/frontend-cicd-aalst/'
+    ],
     maxAge: 3 * 60 * 60, // 3h in seconds
   },
   database: {
